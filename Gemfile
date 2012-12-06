@@ -5,7 +5,13 @@ gem 'rails', '3.2.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'pg'
+gem 'httparty'
+gem 'geocoder'
+gem 'pry-rails'
+gem 'rails-footnotes'
+gem 'kaminari'
+gem 'annotate'
 
 
 # Gems used only for assets and not required
