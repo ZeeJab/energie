@@ -10,6 +10,7 @@ class HomeController < ApplicationController
     long = y["data"].first[8][2]
     building_type = y["data"].first[9]
     consumption = y["data"].first[10]
+    zip = JSON(y["data"][0][8][0])['zip']
 
 
   end
