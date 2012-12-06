@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: subz_development  #name is name of app _development 
+  database: energies_development  #name is name of app _development 
   pool: 5
   host: localhost
   username: postgres
@@ -10,7 +10,7 @@ development:
 production:
   adapter: postgresql
   encoding: unicode
-  database: subz_production  #name is name of app _development 
+  database: energies_production  #name is name of app _development 
   pool: 5
   host: localhost
   username: postgres
