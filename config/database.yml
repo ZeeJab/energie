@@ -1,17 +1,17 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: energies_development  #name is name of app _development 
+  database: energies_development
   pool: 5
   host: localhost
   username: postgres
-  password: 1234
+  password: 
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: energies_production  #name is name of app _development 
+  database: energies_production 
   pool: 5
   host: localhost
   username: postgres
-  password: 1234
+  password: §
